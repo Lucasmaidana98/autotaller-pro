@@ -1,118 +1,118 @@
-# AutoTaller Pro - Sistema de Gestión de Taller Automotriz
+# AutoTaller Pro - Sistema de Gestion de Taller Automotriz
 
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-red?style=flat-square&logo=laravel)
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat-square&logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-teal?style=flat-square&logo=tailwindcss)
 
-Un sistema completo de gestión para talleres automotrices desarrollado con las mejores prácticas de desarrollo senior, incluyendo Laravel como backend, React con TypeScript como frontend, y múltiples características avanzadas.
+Un sistema completo de gestion para talleres automotrices desarrollado con las mejores practicas de desarrollo senior, incluyendo Laravel como backend, React con TypeScript como frontend, y multiples caracteristicas avanzadas.
 
-## =€ Características Principales
+## ğŸš€ Caracteristicas Principales
 
-### =Ë Gestión de Órdenes de Trabajo
-- **Sistema completo de órdenes** con estados (pendiente, en progreso, esperando repuestos, esperando aprobación, completado, cancelado)
+### ğŸ“‹ Gestion de Ordenes de Trabajo
+- **Sistema completo de ordenes** con estados (pendiente, en progreso, esperando repuestos, esperando aprobacion, completado, cancelado)
 - **Prioridades configurables** (baja, media, alta, urgente)
-- **Asignación de mecánicos** y seguimiento de horas trabajadas
-- **Gestión de repuestos** por orden de trabajo
-- **Costos automáticos** (mano de obra + repuestos)
-- **Números de orden automáticos** con formato WO-YYYY-####
+- **Asignacion de mecanicos** y seguimiento de horas trabajadas
+- **Gestion de repuestos** por orden de trabajo
+- **Costos automaticos** (mano de obra + repuestos)
+- **Numeros de orden automaticos** con formato WO-YYYY-####
 - **Historial completo** de cambios y estados
 
-### =e Gestión de Clientes
-- **Perfiles completos** con información personal y de contacto
-- **Historial de vehículos** asociados
-- **Historial de órdenes** de trabajo
+### ğŸ‘¥ Gestion de Clientes
+- **Perfiles completos** con informacion personal y de contacto
+- **Historial de vehiculos** asociados
+- **Historial de ordenes** de trabajo
 - **Documentos** (CI, RUC, etc.)
 - **Estados** activo/inactivo
 
-### =— Gestión de Vehículos
-- **Información detallada** (marca, modelo, año, patente, VIN)
-- **Tipos** (auto, moto, camión, van)
+### ğŸš— Gestion de Vehiculos
+- **Informacion detallada** (marca, modelo, aÃ±o, patente, VIN)
+- **Tipos** (auto, moto, camion, van)
 - **Historial de kilometraje**
-- **Notas técnicas** y observaciones
-- **Relación con cliente** propietario
+- **Notas tecnicas** y observaciones
+- **Relacion con cliente** propietario
 
-### =' Gestión de Mecánicos
+### ğŸ”§ Gestion de Mecanicos
 - **Perfiles profesionales** con especialidades
 - **Tarifas por hora** personalizadas
-- **Años de experiencia**
+- **AÃ±os de experiencia**
 - **Estados** (activo, inactivo, de licencia)
-- **Asignación** a múltiples órdenes de trabajo
+- **Asignacion** a multiples ordenes de trabajo
 
-### =æ Gestión de Inventario
+### ğŸ“¦ Gestion de Inventario
 - **Control de stock** con alertas de stock bajo
-- **Precios de costo y venta** con cálculo de margen
-- **Categorías** y marcas
-- **Ubicación** en almacén
-- **Proveedor** y número de parte
+- **Precios de costo y venta** con calculo de margen
+- **Categorias** y marcas
+- **Ubicacion** en almacen
+- **Proveedor** y numero de parte
 - **Estados** (disponible, sin stock, descontinuado)
 
-### =Å Sistema de Citas
+### ğŸ“… Sistema de Citas
 - **Calendario interactivo** para agendamiento
-- **Asignación de mecánicos**
+- **Asignacion de mecanicos**
 - **Tipos de servicio** configurables
-- **Estados** (programada, confirmada, en progreso, completada, cancelada, no asistió)
-- **Duración estimada** y notas
+- **Estados** (programada, confirmada, en progreso, completada, cancelada, no asistio)
+- **Duracion estimada** y notas
 
-## =à Stack Tecnológico
+## ğŸ› ï¸ Stack Tecnologico
 
 ### Backend (Laravel 12.x)
-- **Laravel Framework** con las últimas características
+- **Laravel Framework** con las ultimas caracteristicas
 - **Eloquent ORM** con relaciones complejas
 - **API RESTful** completa con recursos
-- **Autenticación** Laravel Sanctum
-- **Autorización** con Policies y Gates
-- **Validación** con Form Requests
+- **Autenticacion** Laravel Sanctum
+- **Autorizacion** con Policies y Gates
+- **Validacion** con Form Requests
 - **Eventos y Listeners** para notificaciones
 - **Jobs y Queues** para tareas pesadas
-- **Cache** con tags para optimización
-- **Service Layer** para lógica de negocio
+- **Cache** con tags para optimizacion
+- **Service Layer** para logica de negocio
 
 ### Frontend (React 18.x + TypeScript)
 - **React 18** con funciones hooks
-- **TypeScript** para tipado estático
-- **React Router** para navegación SPA
-- **Zustand** para gestión de estado global
-- **TanStack Query** para gestión de datos del servidor
+- **TypeScript** para tipado estatico
+- **React Router** para navegacion SPA
+- **Zustand** para gestion de estado global
+- **TanStack Query** para gestion de datos del servidor
 - **Axios** para llamadas HTTP
 - **Tailwind CSS** para estilos responsivos
-- **Lucide React** para iconografía
-- **Vite** como bundler rápido
+- **Lucide React** para iconografia
+- **Vite** como bundler rapido
 
 ### Base de Datos
-- **SQLite** (desarrollo) / **PostgreSQL** (producción)
+- **SQLite** (desarrollo) / **PostgreSQL** (produccion)
 - **Migraciones** versionadas
 - **Seeders** para datos de prueba
-- **Índices** optimizados
-- **Relaciones** foráneas con integridad
+- **Indices** optimizados
+- **Relaciones** foraneas con integridad
 
-## <× Arquitectura del Sistema
+## ğŸ—ï¸ Arquitectura del Sistema
 
-### Patrones de Diseño Implementados
+### Patrones de DiseÃ±o Implementados
 - **MVC** (Model-View-Controller)
-- **Service Layer** para lógica de negocio compleja
+- **Service Layer** para logica de negocio compleja
 - **Event-Driven Architecture** para desacoplamiento
-- **Factory Pattern** para creación de objetos
+- **Factory Pattern** para creacion de objetos
 - **Observer Pattern** para notificaciones
 
-### Características Avanzadas de Laravel
-- **Custom Middleware** para validaciones específicas
-- **Model Observers** para acciones automáticas
+### Caracteristicas Avanzadas de Laravel
+- **Custom Middleware** para validaciones especificas
+- **Model Observers** para acciones automaticas
 - **Custom Validation Rules** para reglas de negocio
-- **Resource Collections** para transformación de datos
+- **Resource Collections** para transformacion de datos
 - **API Versioning** para compatibilidad
-- **Rate Limiting** para protección de API
+- **Rate Limiting** para proteccion de API
 - **CORS** configurado para desarrollo
 
-### Características Avanzadas de React
-- **Custom Hooks** para lógica reutilizable
+### Caracteristicas Avanzadas de React
+- **Custom Hooks** para logica reutilizable
 - **Context API** + Zustand para estado global
 - **Error Boundaries** para manejo de errores
-- **Lazy Loading** para optimización
+- **Lazy Loading** para optimizacion
 - **Memoization** para performance
 - **TypeScript Interfaces** para type safety
 
-## =€ Instalación y Configuración
+## ğŸš€ Instalacion y Configuracion
 
 ### Requisitos Previos
 ```bash
@@ -124,11 +124,11 @@ Un sistema completo de gestión para talleres automotrices desarrollado con las m
 - Git
 ```
 
-### Instalación Paso a Paso
+### Instalacion Paso a Paso
 
 1. **Clonar el repositorio**
 ```bash
-git clone https://github.com/lmaidana63/autotaller-pro.git
+git clone https://github.com/Lucasmaidana98/autotaller-pro.git
 cd autotaller-pro
 ```
 
@@ -168,6 +168,8 @@ php artisan migrate
 7. **Compilar assets del frontend**
 ```bash
 npm run build
+# Para desarrollo con hot reload:
+npm run dev
 ```
 
 8. **Iniciar servidor de desarrollo**
@@ -175,13 +177,13 @@ npm run build
 php artisan serve
 ```
 
-La aplicación estará disponible en `http://localhost:8000`
+La aplicacion estara disponible en `http://localhost:8000`
 
-## =Ú API Documentation
+## ğŸ“š API Documentation
 
 ### Endpoints Principales
 
-#### Autenticación
+#### Autenticacion
 ```
 POST /api/v1/login
 POST /api/v1/register
@@ -189,7 +191,7 @@ POST /api/v1/logout
 GET  /api/v1/user
 ```
 
-#### Órdenes de Trabajo
+#### Ordenes de Trabajo
 ```
 GET    /api/v1/work-orders
 POST   /api/v1/work-orders
@@ -203,20 +205,20 @@ GET    /api/v1/work-orders-statistics
 
 #### Otros Recursos
 - Clientes: `/api/v1/customers`
-- Vehículos: `/api/v1/vehicles`
-- Mecánicos: `/api/v1/mechanics`
+- Vehiculos: `/api/v1/vehicles`
+- Mecanicos: `/api/v1/mechanics`
 - Repuestos: `/api/v1/parts`
 - Citas: `/api/v1/appointments`
 
-## = Seguridad y Performance
+## ğŸ” Seguridad y Performance
 
 ### Seguridad
-- **Autenticación JWT** con Laravel Sanctum
-- **Autorización granular** con roles y permisos
+- **Autenticacion JWT** con Laravel Sanctum
+- **Autorizacion granular** con roles y permisos
 - **CSRF Protection** habilitado
 - **Input Sanitization** en todos los formularios
 - **SQL Injection** prevenido con Eloquent
-- **XSS Protection** con validación y escape
+- **XSS Protection** con validacion y escape
 
 ### Performance
 - **Database Indexing** en columnas clave
@@ -225,27 +227,27 @@ GET    /api/v1/work-orders-statistics
 - **Caching Strategy** con tags y TTL
 - **Frontend Code Splitting** con Vite
 
-## =È Aspectos Técnicos Destacados
+## ğŸ“ˆ Aspectos Tecnicos Destacados
 
 ### Backend Senior Features
-- **Service Layer Pattern** para lógica compleja
+- **Service Layer Pattern** para logica compleja
 - **Event-Driven Architecture** con eventos y listeners
 - **Repository Pattern** (opcional, implementable)
 - **Custom Form Requests** con validaciones avanzadas
-- **API Resources** para transformación de datos
-- **Policies** para autorización granular
+- **API Resources** para transformacion de datos
+- **Policies** para autorizacion granular
 - **Observer Pattern** en modelos Eloquent
 - **Queue Jobs** para tareas pesadas
-- **Cache Tags** para invalidación inteligente
+- **Cache Tags** para invalidacion inteligente
 - **Database Transactions** para operaciones complejas
 
 ### Frontend Senior Features
 - **TypeScript** strict mode para type safety
-- **Custom Hooks** para lógica reutilizable
+- **Custom Hooks** para logica reutilizable
 - **State Management** con Zustand
 - **Error Boundaries** para manejo robusto de errores
 - **React Query** para cache de datos del servidor
-- **Compound Components** para reutilización
+- **Compound Components** para reutilizacion
 - **Higher-Order Components** cuando necesario
 - **Code Splitting** y lazy loading
 - **Performance Optimization** con React.memo
@@ -255,12 +257,12 @@ GET    /api/v1/work-orders-statistics
 - **Normalized Schema** hasta 3NF
 - **Foreign Key Constraints** para integridad
 - **Indexes** optimizados para queries frecuentes
-- **Soft Deletes** para auditoría
-- **Timestamps** automáticos
+- **Soft Deletes** para auditoria
+- **Timestamps** automaticos
 - **JSON Columns** para datos flexibles
-- **Enum Constraints** para valores válidos
+- **Enum Constraints** para valores validos
 
-## > Contribución
+## ğŸ¤ Contribucion
 
 1. **Fork** el repositorio
 2. **Crear** una rama feature (`git checkout -b feature/nueva-funcionalidad`)
@@ -268,17 +270,17 @@ GET    /api/v1/work-orders-statistics
 4. **Push** a la rama (`git push origin feature/nueva-funcionalidad`)
 5. **Crear** un Pull Request
 
-## =İ Licencia
+## ğŸ“ Licencia
 
-Este proyecto está licenciado bajo la [MIT License](LICENSE).
+Este proyecto esta licenciado bajo la [MIT License](LICENSE).
 
-## =h=» Autor
+## ğŸ‘¨â€ğŸ’» Autor
 
 **Lucas Maidana**
-- GitHub: [@lmaidana63](https://github.com/lmaidana63)
+- GitHub: [@Lucasmaidana98](https://github.com/Lucasmaidana98)
 - LinkedIn: [Lucas Maidana](https://linkedin.com/in/lucas-maidana)
 - Email: lucasmaidana.dev@gmail.com
 
 ---
 
-**AutoTaller Pro** - Sistema de gestión moderno para talleres automotrices desarrollado con prácticas de desarrollo senior.
+**AutoTaller Pro** - Sistema de gestion moderno para talleres automotrices desarrollado con practicas de desarrollo senior.

@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import '../css/app.css';
 
-import Dashboard from '@/pages/Dashboard';
-import WorkOrders from '@/pages/WorkOrders';
-import Customers from '@/pages/Customers';
-import Vehicles from '@/pages/Vehicles';
-import Parts from '@/pages/Parts';
-import Mechanics from '@/pages/Mechanics';
-import Layout from '@/components/Layout';
+import Dashboard from './pages/Dashboard';
+import WorkOrders from './pages/WorkOrders';
+import Customers from './pages/Customers';
+import Vehicles from './pages/Vehicles';
+import Parts from './pages/Parts';
+import Mechanics from './pages/Mechanics';
+import Layout from './components/Layout';
 
 const queryClient = new QueryClient({
   defaultOptions: {
